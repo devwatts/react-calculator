@@ -12,12 +12,13 @@ button{
 
 .calculator{
   background-color: rgb(59, 59, 59);
-  width: 90%;
+  width: 500px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   border-radius: 20px;
   height: fit-content;
+  margin-top: 100px;
 }
 
 .display{
@@ -73,3 +74,8 @@ transition: all ease 0.2s;
   background-color: rgb(133, 133, 133);
 }
 
+@media (max-width: 768px) {
+.calculator{
+  width: 90%;
+}
+}
